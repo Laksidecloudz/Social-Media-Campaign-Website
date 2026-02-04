@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Social Media Campaigns Ltd.</title>
+    <meta name="description" content="Get in touch with Social Media Campaigns Ltd. We're here to help with any questions about online safety for teenagers.">
+    
+    <!-- Google Fonts - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icons/cursor-1.png">
+</head>
+<body>
+    <!-- Floating Particles Background -->
+    <div class="particles"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="Home.html" class="logo">
+                    <img src="images/campaign_logo.png" alt="SMC Logo">
+                    <span class="logo-text">SMC Ltd.</span>
+                </a>
+                
+                <nav class="nav">
+                    <a href="Home.html" class="nav-link">Home</a>
+                    <a href="Information.html" class="nav-link">Information</a>
+                    <a href="Popular%20Apps.html" class="nav-link">Popular Apps</a>
+                    <a href="Parents%20Help.html" class="nav-link">Parents Help</a>
+                    <a href="Livestreaming.html" class="nav-link">Livestreaming</a>
+                    <a href="Contact.html" class="nav-link active">Contact</a>
+                    <a href="Legislation.html" class="nav-link">Legislation</a>
+                </nav>
+                
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Page Hero -->
+    <section class="hero" style="min-height: 40vh; padding-top: 150px;">
+        <div class="container">
+            <div class="hero-content animate-on-scroll" style="max-width: 800px; text-align: center; margin: 0 auto;">
+                <h1 class="hero-title">
+                    Get in <span class="gradient-text">Touch</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Have questions or concerns? We're here to help. Reach out to us using the form below or visit our physical branches.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="grid grid-2" style="gap: var(--space-3xl);">
+                
+                <!-- Contact Form -->
+                <div class="animate-on-scroll">
+                    <div class="card" style="padding: var(--space-2xl);">
+                        <h2 style="margin-bottom: var(--space-md);">Send us a <span class="gradient-text">Message</span></h2>
+                        <p style="margin-bottom: var(--space-xl);">Fill out the form below and we'll get back to you as soon as possible.</p>
+                        
+                        <form action="process_contact.php" method="post" data-validate>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Your Name *</label>
+                                    <input type="text" id="name" name="name" class="form-input" required placeholder="John Doe">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Your Email *</label>
+                                    <input type="email" id="email" name="email" class="form-input" required placeholder="john@example.com">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <select id="subject" name="subject" class="form-select" required>
+                                    <option value="">Select a topic...</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="safety">Safety Concern</option>
+                                    <option value="parent">Parent Support</option>
+                                    <option value="report">Report an Issue</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Your Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" required placeholder="Tell us how we can help you..."></textarea>
+                            </div>
+                            
+                            <div class="form-group" style="display: flex; align-items: flex-start; gap: var(--space-md);">
+                                <input type="checkbox" id="privacy" name="privacy" required style="width: 20px; height: 20px; margin-top: 3px; accent-color: var(--color-purple);">
+                                <label for="privacy" style="font-size: var(--font-size-sm); color: var(--text-muted);">
+                                    I agree to the <a href="Privacy%20Policy.html">Privacy Policy</a> and consent to having my data processed for the purpose of this inquiry.
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: var(--space-lg);">
+                                <span>📨</span> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="animate-on-scroll stagger-2">
+                    <h2 style="margin-bottom: var(--space-xl);">Contact <span class="gradient-text">Information</span></h2>
+                    
+                    <div class="contact-info" style="margin-bottom: var(--space-2xl);">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📍</div>
+                            <div>
+                                <h4 style="margin-bottom: var(--space-xs);">Headquarters</h4>
+                                <p style="margin: 0; color: var(--text-muted);">Social Media Campaigns Ltd.<br>Akulu Street, Area 12<br>Lilongwe, Malawi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📧</div>
+                            <div>
+                                <h4 style="margin-bottom: var(--space-xs);">Email</h4>
+                                <p style="margin: 0;"><a href="mailto:info@smc-ltd.com">info@smc-ltd.com</a></p>
+                                <p style="margin: var(--space-xs) 0 0; font-size: var(--font-size-sm); color: var(--text-muted);">For general inquiries</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">🆘</div>
+                            <div>
+                                <h4 style="margin-bottom: var(--space-xs);">Emergency Support</h4>
+                                <p style="margin: 0;"><a href="mailto:help@smc-ltd.com">help@smc-ltd.com</a></p>
+                                <p style="margin: var(--space-xs) 0 0; font-size: var(--font-size-sm); color: var(--text-muted);">For urgent safety concerns</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">🕐</div>
+                            <div>
+                                <h4 style="margin-bottom: var(--space-xs);">Working Hours</h4>
+                                <p style="margin: 0; color: var(--text-muted);">Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Branch Locations -->
+                    <div class="card" style="padding: var(--space-xl);">
+                        <h3 style="margin-bottom: var(--space-lg);">Our Branch Locations</h3>
+                        
+                        <div style="display: flex; flex-direction: column; gap: var(--space-md);">
+                            <div style="padding: var(--space-md); background: var(--bg-card); border-radius: var(--radius-md);">
+                                <h4 style="margin-bottom: var(--space-xs); color: var(--color-pink-light);">🏢 Lilongwe Branch</h4>
+                                <p style="margin: 0; font-size: var(--font-size-sm); color: var(--text-muted);">Akulu Street, Area 12, Lilongwe</p>
+                            </div>
+                            
+                            <div style="padding: var(--space-md); background: var(--bg-card); border-radius: var(--radius-md);">
+                                <h4 style="margin-bottom: var(--space-xs); color: var(--color-blue-light);">🏢 Blantyre Branch</h4>
+                                <p style="margin: 0; font-size: var(--font-size-sm); color: var(--text-muted);">Mbobwe Avenue, Limbe, Blantyre</p>
+                            </div>
+                            
+                            <div style="padding: var(--space-md); background: var(--bg-card); border-radius: var(--radius-md);">
+                                <h4 style="margin-bottom: var(--space-xs); color: var(--color-teal-light);">🏢 Mzuzu Branch</h4>
+                                <p style="margin: 0; font-size: var(--font-size-sm); color: var(--text-muted);">Moyo Road, Katanga, Mzuzu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Map Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="animate-on-scroll">
+                <div class="card" style="padding: var(--space-xl); overflow: hidden;">
+                    <h2 style="text-align: center; margin-bottom: var(--space-xl);">Find Us in <span class="gradient-text">Malawi</span></h2>
+                    <div style="border-radius: var(--radius-xl); overflow: hidden;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545657.1969378363!2d34.23935841808609!3d-13.239075013745785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x195389a9f883091b%3A0x2a00af1bf13c69c7!2sMalawi!5e0!3m2!1sen!2sus!4v1630602869271!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section" style="background: var(--bg-card); margin: 0 calc(-50vw + 50%); width: 100vw; padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%);">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+                <p>Quick answers to common questions.</p>
+            </div>
+            
+            <div class="grid grid-2" style="gap: var(--space-lg);">
+                <div class="card animate-on-scroll">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-pink-light);">Q: How quickly will you respond?</h4>
+                    <p style="margin: 0; font-size: var(--font-size-sm);">We aim to respond to all inquiries within 24-48 hours during business days. Emergency concerns are prioritized.</p>
+                </div>
+                
+                <div class="card animate-on-scroll stagger-2">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-blue-light);">Q: Is my information secure?</h4>
+                    <p style="margin: 0; font-size: var(--font-size-sm);">Absolutely. We take data protection seriously and comply with all relevant privacy regulations. Read our <a href="Privacy%20Policy.html">Privacy Policy</a> for details.</p>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-teal-light);">Q: Can I report cyberbullying anonymously?</h4>
+                    <p style="margin: 0; font-size: var(--font-size-sm);">Yes, you can report safety concerns anonymously. However, providing contact information helps us follow up if needed.</p>
+                </div>
+                
+                <div class="card animate-on-scroll stagger-2">
+                    <h4 style="margin-bottom: var(--space-sm); color: #fbbf24;">Q: Do you offer workshops or training?</h4>
+                    <p style="margin: 0; font-size: var(--font-size-sm);">Yes! We offer workshops for schools, parents, and teens. Contact us for more information about scheduling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Emergency Section -->
+    <section class="section">
+        <div class="container">
+            <div class="animate-on-scroll">
+                <div class="card" style="text-align: center; padding: var(--space-3xl); border: 2px solid #ef4444;">
+                    <div style="font-size: 4rem; margin-bottom: var(--space-md);">🆘</div>
+                    <h2 style="color: #ef4444; margin-bottom: var(--space-md);">Need Immediate Help?</h2>
+                    <p style="font-size: var(--font-size-lg); max-width: 600px; margin: 0 auto var(--space-xl);">
+                        If you or someone you know is in immediate danger, please contact emergency services or these crisis resources:
+                    </p>
+                    
+                    <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+                        <a href="tel:997" class="btn btn-outline" style="border-color: #ef4444; color: #ef4444;">
+                            <span>📞</span> Emergency: 997
+                        </a>
+                        <a href="mailto:help@smc-ltd.com" class="btn btn-primary" style="background: #ef4444; box-shadow: 0 0 30px rgba(239, 68, 68, 0.3);">
+                            <span>📧</span> Crisis Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section class="section" style="padding-bottom: 0;">
+        <div class="container">
+            <div class="animate-on-scroll" style="text-align: center; padding: var(--space-3xl); background: var(--gradient-primary); border-radius: var(--radius-xl);">
+                <h2 style="color: white; margin-bottom: var(--space-md);">We're Here to Help</h2>
+                <p style="color: rgba(255,255,255,0.9); font-size: var(--font-size-lg); max-width: 600px; margin: 0 auto var(--space-xl);">
+                    Don't hesitate to reach out. Your safety and wellbeing are our top priorities.
+                </p>
+                <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+                    <a href="Information.html" class="btn btn-secondary" style="border-color: white; color: white;">Learn More</a>
+                    <a href="Parents%20Help.html" class="btn btn-outline" style="border-color: white; color: white;">Parent Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="Home.html" class="logo">
+                        <img src="images/campaign_logo.png" alt="SMC Logo" style="height: 40px;">
+                        <span class="logo-text">SMC Ltd.</span>
+                    </a>
+                    <p>Empowering teenagers to navigate social media safely and responsibly. Your safety is our priority.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                            <img src="icons/facebook.png" alt="">
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">
+                            <img src="icons/twitter.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <img src="icons/instagram.png" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">
+                            <img src="icons/youtube.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Information.html">Information</a></li>
+                        <li><a href="Popular%20Apps.html">Popular Apps</a></li>
+                        <li><a href="Legislation.html">Legislation</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="Parents%20Help.html">Parents Help</a></li>
+                        <li><a href="Livestreaming.html">Livestreaming</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                        <li><a href="rss.xml">RSS Feed</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="Privacy%20Policy.html">Privacy Policy</a></li>
+                        <li><a href="Legislation.html">Terms of Use</a></li>
+                        <li><a href="Campaigns.html">Admin Access</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 Social Media Campaigns Ltd. All rights reserved.</p>
+                <ul class="footer-breadcrumb">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Information.html">Information</a></li>
+                    <li><a href="Popular%20Apps.html">Popular Apps</a></li>
+                    <li><a href="Parents%20Help.html">Parents Help</a></li>
+                    <li><a href="Livestreaming.html">Livestreaming</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Legislation.html">Legislation</a></li>
+                    <li class="current">You are here: Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to Top">↑</button>
+    
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

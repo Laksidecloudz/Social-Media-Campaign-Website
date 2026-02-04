@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1770217315579,
+    "title": "Instagram Privacy Awareness",
+    "platform": "Instagram",
+    "description": "Educating teens about Instagram privacy settings, story controls, and blocking features to ensure safe usage of the platform.",
+    "status": "active",
+    "createdAt": "2026-02-04T15:01:55.578Z"
+  },
+  {
+    "id": 1770217315581,
+    "title": "Cyberbullying Prevention Week",
+    "platform": "General",
+    "description": "A week-long campaign to raise awareness about cyberbullying, its effects, and how to report and prevent it across all platforms.",
+    "status": "completed",
+    "createdAt": "2026-02-04T15:01:55.579Z",
+    "updatedAt": "2026-02-04T15:02:40.593Z"
+  },
+  {
+    "id": 1770217315582,
+    "title": "TikTok Safe Streaming Guide",
+    "platform": "TikTok",
+    "description": "Teaching teens how to use TikTok safely including privacy settings, comment filters, and content reporting.",
+    "status": "draft",
+    "createdAt": "2026-01-28T15:01:55.579Z",
+    "updatedAt": "2026-02-04T15:02:55.299Z"
+  }
+]

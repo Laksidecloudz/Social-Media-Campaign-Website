@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>Social Media Safety Tips</title>
+    <link>https://www.socialmediasafety.com</link>
+    <description>Stay safe on social media with our expert tips and advice.</description>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2024 Social Media Campaigns Ltd.</copyright>
+    <lastBuildDate>Thu, 09 May 2024 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Creating a Strong Password</title>
+      <link>https://www.socialmediasafety.com/creating-a-strong-password</link>
+      <description>Learn how to create a strong and secure password to protect your social media accounts.</description>
+      <pubDate>Thu, 09 May 2024 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.socialmediasafety.com/?p=123</guid>
+      <category>Social Media Security</category>
+    </item>
+    <item>
+      <title>Recognizing Online Scams</title>
+      <link>https://www.socialmediasafety.com/recognizing-online-scams</link>
+      <description>Stay safe from online scams and learn how to recognize and avoid them on social media.</description>
+      <pubDate>Thu, 02 May 2024 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.socialmediasafety.com/?p=456</guid>
+      <category>Social Media Safety</category>
+    </item>
+  </channel>
+</rss>
